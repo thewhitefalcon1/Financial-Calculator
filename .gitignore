@@ -1,0 +1,39 @@
+# === Виртуальное окружение ===
+venv/
+env/
+.venv/
+
+# === Кэш и временные файлы Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite3
+
+# === Тестовые и временные каталоги ===
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+.mypy_cache/
+.tox/
+
+# === IDE и редакторы ===
+.vscode/
+.idea/
+*.iml
+
+# === Системные файлы ===
+.DS_Store
+Thumbs.db
+
+# === Данные (если используешь) ===
+data/raw/
+data/temp/
+data/private/
+
+# === Другие служебные ===
+*.bak
+*.swp
